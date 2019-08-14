@@ -10,3 +10,4 @@ Create a movie list with genres menu. User can filter the movies by genres.
 - Each movie shows movie titile, poster and genre type
 
 ### Demo Page
+https://yiruzeng.github.io/movie-with-genres/
