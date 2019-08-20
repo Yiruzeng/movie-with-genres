@@ -44,17 +44,6 @@
 
   // -------------------- EventListener ----------------------
 
-  // listen to data panel  (event delegation)
-  dataPanel.addEventListener('click', (event) => {
-    if (event.target.matches('.btn-show-movie')) {
-      showMovie(event.target.dataset.id)
-    }
-    else if (event.target.matches('.btn-add-favorite')) {
-      // console.log(event.target.dataset.id)
-      addFavoriteItem(event.target.dataset.id)
-    }
-  })
-
   leftNav.addEventListener('click', (event) => {
     const filterResults = []
     // 讀取點擊到的字串
